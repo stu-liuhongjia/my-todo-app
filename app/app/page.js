@@ -167,10 +167,11 @@ export default function Home() {
                 checked={todo.completed}
                 onChange={() => toggleTodo(todo.id, todo.completed)}
               />
-              <span
-              className={`todo-text ${todo.completed ? 'completed' : ''}`}
-                {todo.text}
-              </span>
+             <span
+  className={`todo-text ${todo.completed ? 'completed' : ''}`}
+>
+  {todo.text}
+</span>
               <button
                 className="delete-button"
                 onClick={() => deleteTodo(todo.id)}
