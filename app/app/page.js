@@ -168,9 +168,7 @@ export default function Home() {
                 onChange={() => toggleTodo(todo.id, todo.completed)}
               />
               <span
-                className={todo-text ${
-                  todo.completed ? 'completed' : ''
-                }}
+              className={`todo-text ${todo.completed ? 'completed' : ''}`}
                 {todo.text}
               </span>
               <button
