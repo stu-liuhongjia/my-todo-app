@@ -1,3 +1,4 @@
+'useclient'
 import { supabase } from '@/lib/supabase';
 
 export default function LeaveList({
