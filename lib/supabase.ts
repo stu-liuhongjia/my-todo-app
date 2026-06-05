@@ -1,0 +1,7 @@
+import { createClient } from '@supabase/supabase-js';
+
+// 请使用您提供的Supabase URL和Anon Key
+export const supabase = createClient(
+  'https://zjaomlilwfvqqslzlrtz.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYW9tbGlsd2Z2cXFzbHpscnR6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2NDI4NjQsImV4cCI6MjA5NjIxODg2NH0.8j1KPzfFBvF92gWmP3VevqkkRKlgYaG9v-7AlDNO-O8'
+);
