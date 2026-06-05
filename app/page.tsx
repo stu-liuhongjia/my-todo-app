@@ -1,8 +1,8 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { supabase } from '@/lib/supabase';
-import LeaveForm from '@/components/LeaveForm';
-import LeaveList from '@/components/LeaveList';
+import { supabase } from '../lib/supabase';
+import LeaveForm from '../components/LeaveForm';
+import LeaveList from '../components/LeaveList';
 
 export default function Home() {
   const [requests, setRequests] = useState<any[]>([]);
